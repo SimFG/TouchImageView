@@ -38,5 +38,9 @@ class SingleTouchImageViewActivity : AppCompatActivity() {
             }
         }
         )
+        
+        binding.imageSingle.setOnClickListener {
+            binding.imageSingle.setZoom(1.1f, 0f, 0f)
+        }
     }
 }
